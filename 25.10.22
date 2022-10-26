@@ -1,0 +1,20 @@
+Investigating NLP models for sentiment analysis in order to interpret text box inputs from ED patients.
+-graded SA
+-emotional detection
+-aspect based SA: finding the sentiment attributed to a specific thing in the statement
+
+The ideal model would be a mix of emotion/aspect based SA. E.g. "my arm really hurts". We can extract the emotion of the statment which is moderate pain. We can also extract the cause/location of the pain - the arm.
+
+Model input:
+"My arm really hurts"
+
+Model output:
+BODY PART: arm
+SEVERITY: moderate pain
+SCORE: 7 (maybe a relative score rating, relative to other patients also waiting to be seen)
+
+Other thought - what happens with 'slang' input, e.g. really -> rly
+
+Work to do:
+- continue reading on implementation of SA / NLP
+- train a basic model to output the sentiment of a basic input sentence
