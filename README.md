@@ -1,6 +1,4 @@
 # AI-based Triaging for Consultations in Emergency Care (A&E)
-
-# Code Repository
 jsw66 IIB project
 
 This repository contains the code run for my IIB project. The pipelines were found on https://huggingface.co and can be found referenced in the files.
